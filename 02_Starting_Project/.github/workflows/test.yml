@@ -10,7 +10,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-      - name: Inatall Dependencies
+      - name: Inatall Depndencies
         run: npm ci
       - name: Run Tests
         run: npm test
